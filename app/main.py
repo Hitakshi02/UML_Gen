@@ -21,7 +21,7 @@ if submit_button:
         
         # Generate UML diagram
         diagram_path = generate_uml_diagram(uml_info)
-        st.image(diagram_path)  # Display the UML diagram
+        st.image(diagram_path) # Display the UML diagram
         st.success("UML diagram generated successfully!")
     except Exception as e:
         st.error("An Error Occured: {e}")
