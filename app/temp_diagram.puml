@@ -1,0 +1,7 @@
+@startuml
+`SandwichMaker` --> `Sandwich` : composition (a SandwichMaker makes a Sandwich)
+`Sandwich` --> `Bread` : composition (a Sandwich has Bread)
+`Sandwich` --> `Filling` : composition (a Sandwich has Filling)
+`SandwichMaker` --> `Bread` : usage (a SandwichMaker uses Bread)
+`SandwichMaker` --> `Filling` : usage (a SandwichMaker uses Filling)
+@enduml

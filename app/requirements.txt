@@ -1,0 +1,7 @@
+streamlit
+langchain-groq
+langchain-core
+python-dotenv
+graphviz
+fastapi
+plantuml
