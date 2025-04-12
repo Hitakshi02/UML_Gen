@@ -5,7 +5,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Install Requirements
 
-```bash
+
 pip install -r requirements.txt
 
 2️⃣ Download plantuml.jar
